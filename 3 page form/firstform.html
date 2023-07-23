@@ -24,6 +24,28 @@
             width: 25px;
             padding: 4px;
         }
+        button {
+  background-color: rgba(15, 1, 56, 0.907); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.465),0 17px 50px 0 rgba(0, 0, 0, 0.465);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.465),0 17px 50px 0 rgba(0, 0, 0, 0.465);
+}
     </style>
 </head>
 
@@ -40,7 +62,8 @@
             <div style="padding-right: 230px;">
                 <p style="text-align: left;">Application for admission to Jr. software Engineer Program</p>
                 <span>( Specialization in Cloud Computation ) Course 20__ to 20__</span>
-                <p style="background-color:rgba(15, 1, 56, 0.907);font-weight: bold;color: white;">(Please tick appropriate
+                <p style="background-color:rgba(15, 1, 56, 0.907);font-weight: bold;color: white;">(Please tick
+                    appropriate
                     columns and
                     fill the
                     application form in block lettes)</p>
@@ -240,13 +263,24 @@
 
                     <p> <input type="checkbox" name="gender">No</p>
                     <div style="padding-top:5px; padding-left: 40px;">
-                        <p>Name of the  Hostel: <span>______________________________________________</span></p>
-                        
+                        <p>Name of the Hostel: <span>______________________________________________</span></p>
+
                     </div>
 
                 </div>
             </div>
-
+            <div style="display: flex;flex-direction: row;padding-top: 40px;">
+                <div style="padding-right: 400px; ">
+                    <a href="#">
+                        <button class="button button1">Previous</button>
+                    </a>
+                </div>
+                <div>
+                    <a href="./2nd _page.html">
+                        <button class="button button2">Next</button>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
